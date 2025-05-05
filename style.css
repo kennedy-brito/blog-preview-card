@@ -59,7 +59,7 @@ body {
 }
 
 .card{
-  width: 19%;
+  width: 350px;
   padding: 20px;
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 15px;
@@ -108,4 +108,11 @@ body {
 
 .author-name{
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .card{
+    max-width: 300px;
+  }
+  
 }
