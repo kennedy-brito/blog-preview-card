@@ -39,5 +39,9 @@ body {
 }
 
 .card{
-  width: 50%;
+  width: 19%;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
 }
